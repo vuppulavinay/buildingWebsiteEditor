@@ -1,0 +1,85 @@
+{
+  "name": "PagesList",
+  "ListOfPages": [
+    {
+      "name": "Home",
+      "component": {
+        "tagName": "div",
+        "classes": [
+          "container"
+        ],
+        "components": [
+          {
+            "tagName": "h1",
+            "content": "Home Page",
+            "styles": {
+              "font-weight": "bold",
+              "color": "block"
+            },
+            "components": []
+          },
+          {
+            "tagName": "p",
+            "content": "This is a paragraph inside a container.",
+            "styles": {
+              "font-size": "14px",
+              "color": "black"
+            },
+            "components": []
+          },
+          {
+            "tagName": "div",
+            "classes": [
+              "nested-container"
+            ],
+            "components": [
+              {
+                "tagName": "h2",
+                "content": "Nested Section",
+                "components": []
+              },
+              {
+                "tagName": "p",
+                "content": "Another paragraph inside a nested container.",
+                "components": [
+                  {
+                    "tagName": "button",
+                    "content": "Read More",
+                    "components": []
+                  }
+                ]
+              },
+              {
+                "tagName": "button",
+                "content": "Submit",
+                "classes": [
+                  "subBtncss"
+                ],
+                "styles": {
+                  "background-color": "green",
+                  "color": "white",
+                  "padding": "10px 20px"
+                },
+                "components": []
+              },
+              {
+                "tagName": "button",
+                "content": "Cancel",
+                "classes": [
+                  "clsBtncss"
+                ],
+                "styles": {
+                  "color": "white",
+                  "background-color": "red",
+                  "border": "1px solid red",
+                  "padding": "10px 20px"
+                },
+                "components": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

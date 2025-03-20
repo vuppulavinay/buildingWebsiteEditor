@@ -1,0 +1,123 @@
+{
+    "name": "block",
+    "title": "Block",
+    "blockList": [
+        {
+            "name": "div",
+            "type": "div",
+            "content": "",
+            "styles": {
+                "background-color": "",
+                "color": "black",
+                "border": "none",
+                "padding": "0px 0px",
+                "cursor": "pointer"
+            }
+        },
+        {
+            "name": "h1",
+            "type": "h1",
+            "content": "header1",
+            "styles": {
+                "background-color": "",
+                "color": "black",
+                "border": "none",
+                "padding": "0px 0px",
+                "cursor": "pointer"
+            }
+        },
+        {
+            "name": "h2",
+            "type": "h2",
+            "content": "header2",
+            "styles": {
+                "background-color": "",
+                "color": "black",
+                "border": "none",
+                "padding": "0px 0px",
+                "cursor": "pointer"
+            }
+        },
+        {
+            "name": "h3",
+            "type": "h3",
+            "content": "header3",
+            "styles": {
+                "background-color": "",
+                "color": "black",
+                "border": "none",
+                "padding": "0px 0px",
+                "cursor": "pointer"
+            }
+        },
+        {
+            "name": "h4",
+            "type": "h4",
+            "content": "header4",
+            "styles": {
+                "background-color": "",
+                "color": "black",
+                "border": "none",
+                "padding": "0px 0px",
+                "cursor": "pointer"
+            }
+        },
+        {
+            "name": "h5",
+            "type": "h5",
+            "content": "header5",
+            "styles": {
+                "background-color": "",
+                "color": "black",
+                "border": "none",
+                "padding": "0px 0px",
+                "cursor": "pointer"
+            }
+        },
+        {
+            "name": "h6",
+            "type": "h6",
+            "content": "header6",
+            "styles": {
+                "background-color": "",
+                "color": "black",
+                "border": "none",
+                "padding": "0px 0px",
+                "cursor": "pointer"
+            }
+        },
+        {
+            "name": "header",
+            "type": "html",
+            "content": "<h1>Welcome to My Website</h1>",
+            "styles": {
+                "font-size": "24px",
+                "color": "blue"
+            }
+        },
+        {
+            "name": "p",
+            "type": "p",
+            "content": "This is a paragraph. You can edit this text.",
+            "styles": {
+                "font-size": "18px",
+                "color": "black",
+                "border": "none",
+                "padding": "0px 0px",
+                "cursor": "pointer"
+            }
+        },
+        {
+            "name": "button",
+            "type": "button",
+            "content": "Click Me",
+            "styles": {
+                "background-color": "green",
+                "color": "white",
+                "border": "none",
+                "padding": "10px 20px",
+                "cursor": "pointer"
+            }
+        }
+    ]
+}

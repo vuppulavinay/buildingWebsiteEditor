@@ -1,0 +1,26 @@
+.left-sidebar {
+
+  width: 30%;
+
+}
+
+.right-sidebar {
+  width: 30%
+}
+
+.overall-container {
+  /* display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  border: 1px solid red; */
+}
+
+.canvas-editor {
+  width: 100%;
+  height: 100%;
+  border: 1px solid red;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
